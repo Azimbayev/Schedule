@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#008577"
+        android:text="CSSE-1603"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#eeeeee"
+        android:stretchColumns="*"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow android:background="#cccccc"
+            android:padding="5dp">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Monday"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="67dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/firstRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="13:10 - 14:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="Philosophy 902 BYOD practice CSSE-1603"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="117dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/secondRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="14:10 - 15:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="Philosophy 607 practice CSSE-1603"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="167dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/thirdRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="DuplicateIds">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="15:10 - 16:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="Philosophy 408b lecture CSSE-1603"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="217dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/fourthRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="16:10 - 17:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="Economics 408b lecture CSSE-1603"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#eeeeee"
+        android:stretchColumns="*"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow android:background="#cccccc"
+            android:padding="5dp">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tuesday"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/fivesRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="12:10 - 13:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="Ecology 706 practice CSSE-1603"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/sixthRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="13:10 - 14:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="No Class"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/thirdRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="DuplicateIds">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="14:10 - 15:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="Ecology 214b lecture CSSE-1603"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="455dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/seventhRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="15:10 - 16:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="Economics 902 BYOD pracitce CSSE-1603"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:stretchColumns="1"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp">
+        <TableRow
+
+            android:id="@+id/eighthRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!-- first element of the row-->
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="16:10 - 17:00"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+
+                android:id="@+id/simpleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:padding="18dip"
+                android:text="Economics 902 BYOD pracitce CSSE-1603"
+                android:textColor="#000"
+                android:textSize="14dp"
+                tools:ignore="DuplicateIds" />
+
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
